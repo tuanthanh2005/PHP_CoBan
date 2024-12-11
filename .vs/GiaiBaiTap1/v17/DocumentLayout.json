@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\ASP.NET\\GiaiBaiTap1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AB3BE0A-B6EE-4577-B4E9-9CED7CAF6501}|GiaiBaiTap1\\GiaiBaiTap1.csproj|D:\\ASP.NET\\GiaiBaiTap1\\giaibaitap1\\tinhtoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{1AB3BE0A-B6EE-4577-B4E9-9CED7CAF6501}|GiaiBaiTap1\\GiaiBaiTap1.csproj|d:\\asp.net\\giaibaitap1\\giaibaitap1\\tinhtoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{1AB3BE0A-B6EE-4577-B4E9-9CED7CAF6501}|GiaiBaiTap1\\GiaiBaiTap1.csproj|solutionrelative:giaibaitap1\\tinhtoan.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|d:\\asp.net\\giaibaitap1\\baittap2\\thongtin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|solutionrelative:baittap2\\thongtin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6808AC00-5115-4374-9D73-0AA04DF6844D}|BaitTap2\\BaitTap2.csproj|d:\\asp.net\\giaibaitap1\\baittap2\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -18,24 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "styles.css",
-              "DocumentMoniker": "D:\\ASP.NET\\GiaiBaiTap1\\BaitTap2\\styles.css",
-              "RelativeDocumentMoniker": "BaitTap2\\styles.css",
-              "ToolTip": "D:\\ASP.NET\\GiaiBaiTap1\\BaitTap2\\styles.css",
-              "RelativeToolTip": "BaitTap2\\styles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-11T11:13:35.596Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -47,7 +38,33 @@
               "RelativeToolTip": "GiaiBaiTap1\\tinhtoan.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-12-11T11:12:54.968Z",
+              "WhenOpened": "2024-12-11T16:00:21.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\ASP.NET\\GiaiBaiTap1\\BaitTap2\\styles.css",
+              "RelativeDocumentMoniker": "BaitTap2\\styles.css",
+              "ToolTip": "D:\\ASP.NET\\GiaiBaiTap1\\BaitTap2\\styles.css",
+              "RelativeToolTip": "BaitTap2\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-11T15:45:59.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "thongtin.aspx",
+              "DocumentMoniker": "D:\\ASP.NET\\GiaiBaiTap1\\BaitTap2\\thongtin.aspx",
+              "RelativeDocumentMoniker": "BaitTap2\\thongtin.aspx",
+              "ToolTip": "D:\\ASP.NET\\GiaiBaiTap1\\BaitTap2\\thongtin.aspx",
+              "RelativeToolTip": "BaitTap2\\thongtin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-11T15:44:35.973Z",
               "EditorCaption": ""
             }
           ]
