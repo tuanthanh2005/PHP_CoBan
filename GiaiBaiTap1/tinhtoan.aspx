@@ -23,7 +23,8 @@
             <asp:Button ID="btnChia" runat="server" Text="Chia" OnClick="btnChia_Click" />
             <div class="result">
                 <asp:Label ID="lblKetQua" runat="server" Text="Kết quả:"></asp:Label>
-                <asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
+                <asp:TextBox ID="lblResult" runat="server"></asp:TextBox>
+            
             </div>
                 </div>
         </div>
