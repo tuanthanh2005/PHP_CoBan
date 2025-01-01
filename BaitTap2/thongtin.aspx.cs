@@ -11,7 +11,7 @@ namespace BaitTap2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if (!IsPostBack)// không được lặp lại sau khi dùng cũng như là bị nhân đôi thông tin lên gây lỗi
             {
              
                 ddlTrinhDo.Items.Add(new ListItem("Cao Đẳng", "CD"));
@@ -34,8 +34,7 @@ namespace BaitTap2
 
         protected void btnGui_Click(object sender, EventArgs e)
         {
-            try
-            {
+            try {
                
                 string hoTen = txtHoTen.Text.Trim();
                 string ngaySinh = txtNgaySinh.Text;
@@ -62,14 +61,14 @@ namespace BaitTap2
                     fuHinh.SaveAs(filePath);
                 }
 
-            
+            // kết Quả Trả về
                 lblResult.Text = $@"
-                    <div class='p-3 border rounded bg-light'>
+                       <div class='p-3 border rounded bg-light'>
                         <h4 class='text-success'>Kết quả đăng ký</h4>
                         <p><strong>Họ và tên:</strong> {hoTen}</p>
                         <p><strong>Ngày sinh:</strong> {ngaySinh}</p>
                         <p><strong>Giới tính:</strong> {gioiTinh}</p>
-                        <p><strong>Trình độ:</strong> {trinhDo}</p>
+                        <p><strong>Trình độ:</strong> {trinhDo}</p>1620
                         <p><strong>Nghề nghiệp:</strong> {ngheNghiep}</p>
                         <p><strong>Sở thích:</strong> {soThichText}</p>
                         <p><strong>Ảnh:</strong></p>

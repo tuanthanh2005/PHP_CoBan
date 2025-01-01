@@ -63,7 +63,7 @@
                     <asp:Button ID="btnReset" runat="server" Text="Làm Lại" OnClick="btnReset_Click" CssClass="btn btn-secondary w-100 mt-2"></asp:Button>
                 </div>
 
-                <!-- Result -->
+                <!-- Result Kết Quả -->
                 <div class="result mt-3">
                     <asp:Label ID="lblResult" runat="server" Text="" CssClass="form-text"></asp:Label>
                 </div>
